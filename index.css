@@ -27,7 +27,7 @@ li a {
 .row1 {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 50px;
 }
 
 #portrait {
@@ -36,12 +36,54 @@ li a {
     height: auto;
 }
 
-.row1col1 {
+.row1col2 {
     display: flex;
     flex-direction: column;
+}
+
+#name {
+    background-color: lightblue;
 }
 
 #description {
     overflow-wrap: break-word;
     max-width: 250px;
+    background-color: lightblue;
+    font-family: 'Open Sans';
+}
+
+.row2 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.row2col2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icons {
+    display: flex;
+}
+
+.linkedin {
+    width: auto;
+    height: 8%;
+}
+
+.github {
+    width: 13%;
+    height: auto;
+}
+
+.gmail {
+    width: 10%;
+    height: auto;
 }
